@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exluir Filmes"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/idtxtExcluirFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id do filme"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"/>
+</LinearLayout>
